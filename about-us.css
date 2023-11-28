@@ -1,0 +1,154 @@
+body {
+    background-color: #1C2225;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+
+.about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(./img/mob_about_element.png);
+    background-repeat: no-repeat;
+    background-position: 100% 98%;
+}
+
+.about-container {
+    margin: 0 auto;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 335px;
+    margin: 0 auto;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-text-wrap {
+    margin-bottom: 50px;
+}
+
+.about-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 137.5%;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.about-description-store,
+.about-description {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
+
+.about-description {
+    margin-top: 20px;
+}
+
+.about-foto {
+    border-radius: 4px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .about-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url(./img/tab_about_element.png);
+        background-position: 100% 91%;
+    }
+
+    .about-container {
+        padding-right: 32px;
+        padding-left: 32px;
+        max-width: 768px;
+    }
+
+    .about-title {
+        font-size: 44px;
+        line-height: 145.455%;
+        letter-spacing: -1.32px;
+    }
+
+    .about-text-wrap {
+        margin-bottom: 40px;
+    }
+
+    .about-description-store,
+    .about-description {
+        font-size: 16px;
+        letter-spacing: -0.64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .about-section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-image: url(./img/desk_about_element.png);
+        background-position: 100% 90%;
+    }
+
+
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        max-width: 1280px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .about-text-wrap {
+        width: 436px;
+        height: 454px;
+    }
+
+    .about-foto-wrap {
+        width: 594px;
+        height: 545px;
+    }
+}
